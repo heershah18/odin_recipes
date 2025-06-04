@@ -3,15 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Recipes</title>
+    <style>
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            color: #333;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #b35f00;
+        }
+
+        .recipe {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ffd9b3;
+            border-radius: 8px;
+            background-color: #fff0e6;
+        }
+
+        .recipe a {
+            display: inline-block;
+            margin-top: 8px;
+            color: #d2691e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .recipe a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Today's Recipe</h1>
-    <p>Caramel Apple Cake</p>
-    <a href="recipes/apple_cake.html">Apple Caramel Dump Cake</a>
-    <p>Refreshing Summer Drink recipe</p>
-    <a href="recipes/drink.html">Summer Drink </a>
-    <p>For dessert, try nutella brownie recipe</p> 
-    <a href="recipes/dessert.html">Nutella Brownie</a>
+    <h1>Today's Recipes</h1>
+    <div class="recipe">
+        <h2>Caramel Apple Cake</h2>
+        <p>A rich, buttery cake loaded with sweet apples and topped with gooey caramel.</p>
+        <a href="recipes/apple_cake.html">View Recipe</a>
+    </div>
+
+<div class="recipe">
+        <h2>Refreshing Summer Drink</h2>
+        <p>Stay cool with this zesty and fruity summer drink — perfect for hot days.</p>
+        <a href="recipes/drink.html">View Recipe</a>
+    </div>
+
+    <div class="recipe">
+        <h2>Nutella Brownies</h2>
+        <p>Decadent, fudgy brownies made with rich Nutella — a dessert lover's dream.</p>
+        <a href="recipes/dessert.html">View Recipe</a>
+    </div>
 </body>
 </html>
